@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "556066546554",
+    "firebase_url": "https://rgb-led-6de8a.firebaseio.com",
+    "project_id": "rgb-led-6de8a",
+    "storage_bucket": "rgb-led-6de8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556066546554:android:49ffced8d0a3d37ba5acc3",
+        "android_client_info": {
+          "package_name": "ch.zhaw.init.rgbledfeather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556066546554-a37m5bts3jc8s8qfigi7p7l0d12qb5v0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ch.zhaw.init.rgbledfeather",
+            "certificate_hash": "6f29b539fd5cae9256202171986d8830903e4a31"
+          }
+        },
+        {
+          "client_id": "556066546554-97n1po76akato0a4qnr0900udt1crkqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKWTyC5FH4v7VPLWyDKg207r2-WCl0Jxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556066546554-97n1po76akato0a4qnr0900udt1crkqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

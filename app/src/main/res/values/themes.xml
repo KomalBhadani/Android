@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RGBLEDFeather" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_first</item>
+        <item name="colorPrimaryVariant">@color/color_second</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TextRegular">
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:fontFamily">@font/regular_font</item>
+    </style>
+
+    <style name="TextMedium">
+        <item name="android:textSize">@dimen/text_large</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:fontFamily">@font/regular_font</item>
+    </style>
+
+    <style name="TextHeadingWhite">
+        <item name="android:textSize">@dimen/text_heading</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:fontFamily">@font/medium_font</item>
+    </style>
+
+    <style name="TexSplash">
+        <item name="android:textSize">@dimen/text_extralarge</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:fontFamily">@font/splas_text</item>
+    </style>
+
+
+    <style name="TextToolBar">
+        <item name="android:textSize">@dimen/text_toolbar</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:fontFamily">@font/medium_font</item>
+    </style>
+
+    <style name="ProgressGold" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/color_acent</item>
+        <item name="android:colorAccent" tools:targetApi="lollipop">@color/color_acent</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert" />
+
+    <style name="Theme.RGBLEDFeather.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.RGBLEDFeather.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.RGBLEDFeather.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

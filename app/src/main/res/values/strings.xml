@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">RGBLED Feather</string>
+
+    <string name="msg_no_network">No Network</string>
+    <string name="msg_retry">Retry</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dial">Dial</string>
+    <string name="led">LED</string>
+    <string name="action">Action</string>
+    <string name="ok">Ok</string>
+    <string name="scan_nodevicesfound">No peripherals found</string>
+    <string name="title_activity_scanner">ScannerActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="scan_scanbutton_scan">Scan for peripherals</string>
+    <string name="scan_scanbutton_scanning">Scanning…</string>
+    <string name="connect">Connect</string>
+    <string name="scan_connectto_dialog_title_format">Choose mode to connect to %s</string>
+    <string name="scan_connectservice_info">Info</string>
+    <string name="scan_connectservice_uart">UART</string>
+    <string name="scan_connectservice_pinio">Pin I/O</string>
+    <string name="scan_connectservice_controller">Controller</string>
+    <string name="scan_connectservice_beacon">Beacon</string>
+    <string name="scan_connectservice_neopixel">Neopixel</string>
+    <string name="scan_connecting">Connecting…</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_margin="@dimen/large"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ch.zhaw.init.rgbledfeather.utils.ColorPicker
+            android:id="@+id/colorPicker"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_ok"
+            android:text="@string/ok"
+            android:textColor="@color/colorTextWhite"
+            android:layout_margin="@dimen/small"
+            android:background="@drawable/bg_gradient_button"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/imgClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/bg_gradient_circle"
+        android:text="X"
+        style="@style/TextHeadingWhite"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/small"
+        android:layout_marginTop="@dimen/small"
+       />
+</FrameLayout>
